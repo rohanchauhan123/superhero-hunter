@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #df3f3fed;
+    font-family: sans-serif;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    background: black;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.nav_bar {
+    display: flex;
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+}
+
+button.heart-like-button.right {
+    background: #ffffff;
+    padding: 5px;
+    /* outline: none; */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button.heart-like-button.right:hover {
+    background-color: rgba(14, 0, 27, 0.322);
+    transition: all 0.5s;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    padding-left: 10rem;
+}
+.main {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+input {
+    padding: 1em 0.5em;
+    background-color: #3a3939;
+    color: #ffffff;
+    width: 70%;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;
+    margin-left: 13%;
+}
+li {
+    color: white;
+    margin-top: 64px;
+}
+.results {
+    width: 80%;
+    margin: auto;
+}
+label.search-hero.slabel {
+    width: 50%;
+    float: left;
+}
+.pic {
+    width: 13%;
+    float: right;
+    padding: 0rem;
+    margin-top: -56px;
+    /* padding-left: 11em; */
+}
+img.sup-img {
+    width: 100%;
+}
+label:hover{
+    background-color: rgba(255, 255, 255, 0.256);
+    transition: all 0.5s;
+}
+.sup-name {
+    width: 70%;
+    /* border: 1px solid; */
+    font-size: 17px;
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.253);
+    cursor: pointer;
+}
